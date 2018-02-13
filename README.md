@@ -1,7 +1,7 @@
 # Load balancing reference code
 The reference code in this repository demostrates possible implementation of load balancing techniques described in the following article: http://blog.wmspanel.com/2015/02/hls-dash-media-streaming-load-balancing.html
 
-This code may be applied to perform balancing of any streaming like HLS, MPEG-DASH, Icecast etc.
+This code may be applied to perform balancing of any streaming like HLS, MPEG-DASH, SLDP, Icecast etc.
 
 "geo-balancer" directory has a PHP class which allows performing balancing based on geo-location of a viewer. The test.php script shows class' proper usage with several examples.
 
